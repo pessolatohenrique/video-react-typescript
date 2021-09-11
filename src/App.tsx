@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import "./App.css";
 import axios from "axios";
+import { User } from "./User";
 
 interface IUser {
   name: string;
@@ -21,7 +22,7 @@ function App() {
   return (
     <div className="App">
       {[...users].map((item) => (
-        <p key={item.email}>{item.name}</p>
+        <User user={item} />
       ))}
     </div>
   );
