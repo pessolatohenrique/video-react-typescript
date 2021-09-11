@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+# Vídeo React.js com Typescript
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Sobre
 
-## Available Scriptsa
+Projeto para treino do React.js com Typescript, por meio de vídeo da Rockeseat (https://www.youtube.com/watch?v=0mYq5LrQN1s&ab_channel=Rocketseat)
 
-In the project directory, you can run:
+### Pré-requisito
 
-### `yarn start`
+É necessário a configuração do backend, construído com Node.JS e Typescript. Para baixar o backend, visitar o [repositório](https://github.com/pessolatohenrique/video-node-typescript).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Tecnologias
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- React.js
+- Typescript
 
-### `yarn test`
+### Instalação do projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Realizar o clone do projeto
 
-### `yarn build`
+    git clone https://github.com/USER/video-react-typescript.git
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Acesse a pasta do projeto e rode o comando para instalar as dependências npm:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Criar arquivo .env e configurar as variáveis de ambiente, semelhantes ao arquivo ".env-example":
 
-### `yarn eject`
+E, por fim, rode o projeto:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+  npm start
+```
